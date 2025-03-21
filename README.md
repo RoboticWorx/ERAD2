@@ -1,5 +1,5 @@
 # ERAD2
-ERAD2 is a next-gen open-source wireless BLDC motor driver based around the TMC6200 IC and an ESP32S3. It has hardware support for Wi-Fi, Bluetooth, ESP-NOW, built-in hall effect sensors, and encoder implementation, making it a versatile BLDC motor driver compatible with any project! 
+ERAD2 is a next-gen open-source wireless BLDC motor driver based around the TMC6200 IC and an ESP32S3. It has built-in hardware support for Wi-Fi, Bluetooth, ESP-NOW, hall effect sensors, and encoder implementation, making it a versatile BLDC motor driver compatible with any project! Simply send commands from wherever, and have ERAD2 execute the movements with the easy-to-use Arduino library [SimpleFOC](https://simplefoc.com/).
 
 The all-inclusive, open-source article explaining the project [can be found here for free](https://roboticworx.io/blogs/projects/erad2).
 
