@@ -8,7 +8,7 @@ The all-inclusive, open-source article explaining the project and how it works [
 ![erad2 heatsink pcb peek](https://github.com/user-attachments/assets/b19b2423-89ea-46d6-abdb-7c80723e7e83)
 ![erad2 slap on motor](https://github.com/user-attachments/assets/4c26f0e2-cdb5-4f3a-a2df-82a149642cf1)
 
-**_(Remember, you can download anything you'd like for yourself but you CAN'T sell it. All my work is licensed, thanks!)_**
+**_Remember, you can download anything you'd like for yourself but you CAN'T sell it. All my work is licensed. Thanks!_**
 
 Thanks for reading and happy making!
 
