@@ -1,8 +1,13 @@
+/*
+ * ERAD2 Sender example program for ESP32S3-based wireless BLDC motor driver. Check it out at roboticworx.io!
+ * This program is for sending an angle to ERAD2 with potentiometer as a demo.
+*/
+
 #include <esp_now.h>
 #include <WiFi.h>
 
 // Define the potentiometer pin
-#define POTENTIOMETER_PIN 7 // Feel free to change this to whichever pin you'd like
+#define POTENTIOMETER_PIN 7 // Feel free to change this to whichever pin your pot/whatever is connected to!
 
 // Structure to send data
 typedef struct struct_message {
@@ -13,7 +18,7 @@ typedef struct struct_message {
 struct_message potData;
 
 // MAC address of the receiver (replace with the actual MAC address of the receiver)
-uint8_t receiverAddress[] = {0x34, 0xCD, 0xB0, 0x38, 0xEB, 0x90}; // 34:cd:b0:38:eb:90
+uint8_t receiverAddress[] = {0x34, 0xCD, 0xB0, 0x38, 0xEB, 0xA4}; // CHANGE TO YOUR OWN RECEIVER'S MAC
 
 // Callback when data is sent
 void onDataSent(const uint8_t *mac_addr, esp_now_send_status_t status) {
@@ -61,7 +66,8 @@ void loop() {
   if (result == ESP_OK) {
     //Serial.print("Sent: ");
     //Serial.println(potData.potValue);
-  } else {
+  }
+  else {
     //Serial.println("Error sending the data");
   }
 
