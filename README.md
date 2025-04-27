@@ -1,6 +1,6 @@
 ![RoboticWorx Shopify Wordmark](https://github.com/user-attachments/assets/66a70338-6aaf-4736-9afd-f90dcd937098)
 # ERAD2
-**NOTE:** The example code only works on ESP32 version 3.1.3 in Arduino IDE. As of 04/27/25 SimpleFOC is not yet compatible with the new ESP-IDF-Arduino port.
+***NOTE:** The example code only works on ESP32 version 3.1.3 in Arduino IDE. As of 04/27/25 SimpleFOC is not yet compatible with the new ESP-IDF-Arduino port.*
 
 ERAD2 is a next-gen open-source wireless BLDC motor driver based around a TMC6200 gate driver and an ESP32-S3. It has built-in hardware support for Wi-Fi, Bluetooth, ESP-NOW, hall effect sensors, and encoder implementation, making it a versatile BLDC motor driver compatible with any project! Simply send commands from wherever, and have ERAD2 execute the movements with the easy-to-use Arduino library [SimpleFOC](https://simplefoc.com/).
 
