@@ -1,6 +1,7 @@
 /*
  * ERAD2 example program for ESP32S3-based wireless BLDC motor driver. Check it out at roboticworx.io!
  * This program is just a basic example with no wireless stuff to move a motor around a little.
+ * NOTE: Please see the project README if you get any errors after upload. 
 */
 
 #include <SimpleFOC.h>
